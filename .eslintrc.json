@@ -4,27 +4,26 @@
   "env": {
     "browser": true
   },
-  "plugins": [
-    "react"
-  ],
+  "plugins": ["react"],
   "rules": {
     "react/jsx-filename-extension": [
       2,
       {
-        "extensions": [
-          ".js",
-          ".jsx"
-        ]
+        "extensions": [".js", ".jsx"]
       }
     ],
-    "react/forbid-prop-types": [
-      0
-    ],
-    "react/require-default-props": [
-      0
-    ],
-    "global-require": [
-      0
-    ]
+    "react/forbid-prop-types": [0],
+    "react/require-default-props": [0],
+    "global-require": [0],
+    "indent": ["error", "tab"],
+    "linebreak-style": ["error", "unix"],
+    "quotes": ["error", "single"],
+    "printWidth": 80,
+    "tabWidth": 2,
+    "singleQuote": false,
+    "trailingComma": "none",
+    "bracketSpacing": true,
+    "semi": true,
+    "useTabs": false
   }
 }
