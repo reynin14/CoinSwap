@@ -17,8 +17,8 @@ class Logo extends React.Component{
     let hideListener = 'keyboardWillHide';
 
     if (Platform.OS === 'android'){
-      let showListener = 'keyboardDidShow';
-      let hideListener = 'keyboardDidHide';
+      showListener = 'keyboardDidShow';
+      hideListener = 'keyboardDidHide';
     }
 
     this.keyboardShowListener = Keyboard.addListener(showListener, this.keyboardShow)
